@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&family=Inconsolata&family=Rubik&family=Source+Code+Pro&display=swap");
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+}
+
+figcaption {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+em {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.menu-container a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-container img {
+  padding-top: 15px;
+  width: 55px;
+  height: 75px;
+}
+
+.menu-container h1 {
+  color: orangered;
+}
+
+header {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: .5em;
+}
+
+header .logo {
+  color: orangered;
+  font-weight: bold;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  padding-top: 35px;
+}
+
+header ul a {
+  display: block;
+  color: white;
+  font-weight: bold;
+  padding: 0 1em;
+}
+
+header ul a:hover {
+  background: blue;
+  border-radius: 15px;
+  color: aqua;
+}
+
+.welcome-page {
+  background-image: url(banner_images/banner_img_mobile.png);
+  height: 300px;
+  margin-top: -25px;
+}
+
+.welcome-page h1 {
+  padding-top: 120px;
+  text-align: center;
+  color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fde508), to(#ff5608));
+  background: linear-gradient(#fde508, #ff5608);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.content-page h1 {
+  color: green;
+  text-align: center;
+}
+
+.content-page figure img {
+  height: 350px;
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-page figure figcaption {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+.content-page p {
+  margin: 1em;
+  text-align: center;
+}
+
+.footer {
+  background-color: #033036;
+  height: 150px;
+}
+
+.footer ul {
+  display: -ms-grid;
+  display: grid;
+}
+
+.footer ul a {
+  color: #ee7503;
+}
+
+.footer h3 {
+  text-align: center;
+  color: #585858;
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+  .welcome-page {
+    background-image: url(banner_images/banner_img.png);
+    height: 600px;
+    margin-top: -25px;
+  }
+  .welcome-page h1 {
+    font-size: 50px;
+    color: white;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+  }
+  .content-page h1 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+  }
+  .content-page .content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content-page .content figure img {
+    height: 500px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content-page .content figure figcaption {
+    color: white;
+    text-align: center;
+    font-size: 13px;
+  }
+  .content-page .content p {
+    margin: 1em;
+    text-align: center;
+    font-size: 20px;
+  }
+  .footer {
+    background-color: #033036;
+    height: 80px;
+  }
+  .footer .container {
+    margin: 1em;
+  }
+  .footer .container ul {
+    padding-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+  }
+  .footer .container ul a {
+    color: #ee7503;
+    padding: 0 .25em;
+    font-size: 15px;
+  }
+  .footer .container h3 {
+    padding-left: .25em;
+    float: left;
+    color: #585858;
+    padding-top: 15px;
+    font-size: 15px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
